@@ -1,0 +1,140 @@
+@media (max-width: 767px){
+    .center {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .header{
+      border-bottom: none;
+      padding-top: 32px;
+      &__input{
+        display: none;
+      }
+      &__menu{
+        display: none;
+      }
+      &__logo{
+        width: 99px;
+      }
+      &__menu-mob{
+        display: flex;
+        gap: $gap;
+      }
+    }
+    .top{
+        &__container{
+        text-align: center;
+        }
+        &__slogan{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        }
+        &__gotocatalog{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px; 
+        }
+    }
+    .title{
+      font-size: 48px;
+    }
+    .furniture-categories{
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      &__container{
+        margin-top: 32px;
+        margin-bottom: 32px;
+      }
+      &__item{
+        grid-column: 1/-1;
+        height: 375px;
+        font-size: 28px;
+        line-height: 34.13px;
+        &__big{
+        height: 244px;    
+        }
+      }    
+      &__heading{
+      font-size: 24px;
+      line-height: 29.26px;
+      }
+    }
+.catalog__heading{
+font-weight: 600;
+font-size: 24px;
+line-height: 29.26px;
+}
+.products__heading{
+font-weight: 600;
+font-size: 24px;
+line-height: 29.26px;
+}
+.product{
+  width: 343px;
+
+&__name{
+font-size: 18px;
+line-height: 21.94px;
+}
+&__price{
+font-size: 18px;
+}
+&__description{
+width: 342px;
+margin-bottom: 8px;
+}
+}
+.footer{
+&__logo-a{
+  display: none;
+}
+
+  height: 363px;
+&__container{
+  justify-content: center;
+  gap: 32px;
+  width: 100%
+}
+&__info{  
+  gap: 100.2px;
+}
+}
+.catalog-top__content{
+  display: flex;
+  justify-content: center;
+}
+.catalog-top__title{
+    font-size: 48px;
+  line-height: 58.51px;
+}
+.catalog-filter{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.catalog-menu{
+  padding-top: 32px;
+  &__nav{
+    padding-bottom: 14px;
+  }
+}
+.top-cart__title{
+font-size: 48px;
+line-height: 58.51px;
+text-align: center;
+margin-top: 82px;
+}
+.cart__name-box{
+  display: none;
+}
+.cart__img{
+  display: none;
+}
+.catalog-filter__content-wrapper{
+  flex-direction: column;
+}
+.catalog-filter__form{
+  right: -130px;
+}
+}

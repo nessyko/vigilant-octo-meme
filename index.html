@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="top center">
+  <header class="header">  
+      <a href="index.html"><img class="header__logo" src="logo.svg" alt="logo"></a>
+      <input placeholder="поиск" class="header__input" type="text">
+    <nav class="header__menu">
+        <a class="header__link" href="catalog.html">Каталог</a>
+        <a class="header__link" href="cart.html">Корзина</a>
+    </nav>
+    <div class="header__menu-mob">
+      <a href="#" class="logo"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.9918 12.1333L14.8692 16.0107C14.871 16.0403 14.8851 16.0607 14.8932 16.0702C14.9019 16.0805 14.9109 16.087 14.9158 16.0902C14.9212 16.0938 14.9262 16.0964 14.9298 16.0981C14.9368 16.1015 14.9435 16.1039 14.9482 16.1055C14.9506 16.1063 14.953 16.107 14.9553 16.1077C14.9575 16.1089 14.9597 16.11 14.9619 16.1112C14.9664 16.1134 14.9728 16.1164 14.9802 16.119C14.9839 16.1203 14.9893 16.122 14.9957 16.1233C15.0014 16.1245 15.0123 16.1263 15.0258 16.1252C15.0378 16.1242 15.0609 16.1201 15.0825 16.1021C15.1031 16.1028 15.1266 16.1036 15.1524 16.1045C15.2467 16.1078 15.3719 16.1121 15.5007 16.1149C15.6136 16.1174 15.7275 16.1187 15.8198 16.1168C15.8612 16.116 15.8993 16.1144 15.9316 16.112C15.9359 16.1144 15.9402 16.1165 15.9443 16.1181C15.9482 16.1202 15.9522 16.1221 15.9565 16.1237C15.986 16.135 16.0117 16.1295 16.024 16.1255C16.0369 16.1214 16.0463 16.1156 16.0511 16.1123C16.0565 16.1086 16.0608 16.105 16.0638 16.1024C16.0696 16.0972 16.0744 16.092 16.0777 16.0881C16.0793 16.0863 16.0809 16.0843 16.0824 16.0824C16.0843 16.0809 16.0862 16.0793 16.0881 16.0777C16.0919 16.0744 16.0971 16.0696 16.1024 16.0638C16.105 16.0608 16.1086 16.0565 16.1123 16.0511C16.1155 16.0463 16.1213 16.0369 16.1255 16.024C16.1294 16.0117 16.135 15.986 16.1237 15.9565C16.122 15.9523 16.1202 15.9483 16.1181 15.9444C16.1164 15.9403 16.1144 15.936 16.1119 15.9317C16.1144 15.8994 16.1159 15.8612 16.1168 15.8198C16.1187 15.7275 16.1174 15.6136 16.1149 15.5008C16.112 15.3719 16.1077 15.2468 16.1044 15.1524C16.1036 15.1266 16.1027 15.1031 16.1021 15.0825C16.12 15.0609 16.1241 15.0378 16.1251 15.0258C16.1262 15.0124 16.1244 15.0015 16.1233 14.9958C16.122 14.9893 16.1203 14.984 16.119 14.9803C16.1164 14.9729 16.1134 14.9665 16.1111 14.962C16.11 14.9598 16.1088 14.9576 16.1077 14.9554C16.107 14.953 16.1062 14.9506 16.1055 14.9483C16.1039 14.9435 16.1015 14.9369 16.0981 14.9298C16.0964 14.9262 16.0938 14.9213 16.0902 14.9158C16.087 14.9109 16.0805 14.902 16.0702 14.8932C16.0607 14.8852 16.0403 14.871 16.0106 14.8692L12.1332 10.9918C12.2617 10.8277 12.3937 10.665 12.5255 10.5025C12.8799 10.0654 13.2329 9.6301 13.5129 9.17698C13.9152 8.52622 14.1781 7.82342 14.0995 6.9906C13.9456 5.359 13.297 4.01127 12.0661 2.92502C11.4511 2.38228 10.5947 1.86439 9.68944 1.48827C8.78499 1.11246 7.82291 0.874473 6.99686 0.900045C5.34712 0.951115 4.08015 1.77941 2.92928 2.92925C1.77726 4.08004 0.952273 5.34535 0.900008 6.99683C0.873835 7.82386 1.11175 8.78559 1.48767 9.68965C1.8639 10.5945 2.38209 11.4505 2.92495 12.0661C4.01156 13.2985 5.35827 13.9465 6.99062 14.0996C7.82369 14.1777 8.52664 13.9156 9.17746 13.5138C9.63414 13.2318 10.0724 12.8759 10.5127 12.5183C10.6718 12.389 10.8312 12.2596 10.9918 12.1333ZM10.9298 4.07127C11.1391 4.27724 11.3218 4.61675 11.4849 4.98828C11.5657 5.17244 11.6404 5.36133 11.7106 5.54137C11.7224 5.57163 11.734 5.60167 11.7456 5.63141C11.8024 5.77786 11.8565 5.91707 11.9078 6.03882C11.968 6.18162 11.9944 6.26823 12.0038 6.32773C12.0123 6.38204 12.0067 6.41443 11.995 6.45177C11.9919 6.4618 11.9872 6.47497 11.9816 6.49057C11.9682 6.52823 11.9497 6.58007 11.936 6.63637C11.9149 6.72336 11.8993 6.83643 11.9 7.0004C11.9008 7.20843 11.9272 7.43882 11.9534 7.66714C11.9673 7.78865 11.9811 7.90956 11.991 8.02621C12.0204 8.37258 12.0175 8.69478 11.9075 8.96193C11.8618 9.07298 11.8144 9.19514 11.7645 9.32392C11.6803 9.54123 11.5887 9.77739 11.4854 10.0108C11.3214 10.3814 11.1373 10.7211 10.9292 10.9293C10.7212 11.1375 10.3815 11.3215 10.0108 11.4855C9.77794 11.5885 9.54252 11.6797 9.32577 11.7638C9.1963 11.8139 9.07348 11.8616 8.96186 11.9075C8.69485 12.0175 8.3726 12.0205 8.02617 11.9911C7.90947 11.9812 7.7885 11.9673 7.66695 11.9534C7.43864 11.9272 7.20828 11.9008 7.00037 11.9C6.83645 11.8993 6.72339 11.9149 6.6364 11.9361C6.58013 11.9498 6.52828 11.9683 6.4906 11.9817C6.47498 11.9873 6.46179 11.992 6.45174 11.9951C6.41436 12.0067 6.38195 12.0123 6.32763 12.0038C6.26813 11.9945 6.18154 11.968 6.0388 11.9079C5.91662 11.8563 5.77682 11.802 5.62975 11.7449C5.60056 11.7336 5.57108 11.7222 5.5414 11.7106C5.36135 11.6405 5.17244 11.5658 4.98825 11.4849C4.61666 11.3219 4.27712 11.1392 4.07126 10.9299C3.65157 10.5031 3.40519 9.84074 3.26594 9.11641C3.12718 8.39466 3.09741 7.62595 3.09996 7.0004C3.10251 6.37324 3.1307 5.85725 3.26497 5.3896C3.39832 4.92509 3.63779 4.50376 4.07068 4.07069C4.50356 3.63765 4.92499 3.39819 5.3896 3.26488C5.85736 3.13065 6.37344 3.10255 7.00037 3.1C7.62567 3.09745 8.39446 3.12713 9.11633 3.26585C9.84076 3.40506 10.5033 3.65144 10.9298 4.07127Z" fill="white" stroke="white" stroke-width="0.2"/>
+        </svg>
+        </a>
+      <a href="catalog.html" class="logo"><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="5" height="5" fill="white"/>
+        <rect y="7" width="5" height="5" fill="white"/>
+        <rect y="14" width="5" height="5" fill="white"/>
+        <rect x="7" y="7" width="5" height="5" fill="white"/>
+        <rect x="7" y="14" width="5" height="5" fill="white"/>
+        <rect x="7" width="5" height="5" fill="white"/>
+        <rect x="14" y="7" width="5" height="5" fill="white"/>
+        <rect x="14" y="14" width="5" height="5" fill="white"/>
+        <rect x="14" width="5" height="5" fill="white"/>
+        </svg>
+        </a>
+      <a href="cart.html" class="logo"><svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.9999 18C13.5608 18 13.6033 17.3985 13.9999 17C14.3965 16.6015 14.9999 16.5636 14.9999 16C14.9999 15.4364 14.3965 14.3985 13.9999 14C13.6033 13.6015 13.5608 14 12.9999 14C12.439 14 11.3965 13.6015 10.9999 14C10.6033 14.3985 10.9999 15.4364 10.9999 16C10.9999 16.5636 10.6033 16.6015 10.9999 17C11.3965 17.3985 12.439 18 12.9999 18ZM4.99989 18C5.56077 18 6.60329 17.3985 6.99989 17C7.39649 16.6015 6.99989 16.5636 6.99989 16C6.99989 15.4364 7.39649 14.3985 6.99989 14C6.60329 13.6015 5.56077 14 4.99989 14C4.43901 14 4.39649 13.6015 3.99989 14C3.60329 14.3985 2.99989 15.4364 2.99989 16C2.99989 16.5636 3.60329 16.6015 3.99989 17C4.39649 17.3985 4.43901 18 4.99989 18ZM18.9999 2.99998C19.2639 2.99142 19.8162 3.19063 19.9999 2.99998C20.1836 2.80933 19.9999 2.26536 19.9999 1.99998C19.9999 1.7346 20.1836 1.19063 19.9999 0.999979C19.8162 0.809327 19.2639 1.00853 18.9999 0.999979H17.9999C17.0461 0.999979 16.2071 2.06498 15.9999 2.99998L13.9999 8.99998C13.7926 9.93498 13.9537 9.99998 12.9999 9.99998H4.99989L2.99989 3.99998H12.9999C13.2614 3.98799 13.8191 4.19015 13.9999 3.99998C14.1807 3.80981 13.9999 3.263 13.9999 2.99998C13.9999 2.73696 14.1807 2.19015 13.9999 1.99998C13.8191 1.80981 13.2614 2.01197 12.9999 1.99998H2.99989C2.69078 1.99989 2.27772 1.86381 1.99989 1.99998C1.72206 2.13614 1.19012 2.75516 0.999891 2.99998C0.809662 3.2448 1.06396 3.69612 0.999891 3.99998C0.935818 4.30384 0.924824 4.69867 0.999891 4.99998L2.99989 11C3.10981 11.4422 2.64236 11.7195 2.99989 12C3.35742 12.2805 4.54628 12.0001 4.99989 12H12.9999C13.9253 12.0001 14.278 11.5818 14.9999 11C15.7218 10.4181 15.7992 9.90776 15.9999 8.99998L17.9999 2.99998H18.9999Z" fill="white"/>
+        </svg>
+        </a>
+    </div>
+  </header>
+    <section class="top__container">  
+      <h1 class="title">Все, чего  <br> заслуживает ваш дом</h1>
+      <p class="top__slogan">Наша мебель — ваше отражение</p>
+      <a class="top__gotocatalog" href="catalog.html">Перейти в каталог</a>
+    </section>
+</div>
+  <div class="furniture-categories center">
+    <h2 class="furniture-categories__heading"> Мебель для...</h2>
+    <div class="furniture-categories__grid">
+      <div class="furniture-categories__item furniture-categories__item--big furniture-categories__item--relax">ОТДЫХА</div>
+      <div class="furniture-categories__item furniture-categories__item--big furniture-categories__item--work">РАБОТЫ</div>
+      <div class="furniture-categories__item furniture-categories__item--kitchen">КУХНИ</div>
+      <div class="furniture-categories__item furniture-categories__item--kids">ДЕТСКОЙ</div>
+      <div class="furniture-categories__item furniture-categories__item--bathroom">ВАННОЙ</div>
+    </div>
+  </div>
+
+<div class="products">
+  <div class="products__container center">
+    <h2 class="products__heading">Специальные предложения</h2>
+    <div class="products__content">
+      <div class="product">
+        <img class="product__img" src="image/voda.jpg" alt="Люстра VODA">
+        <a class="product__name" href="product.html"> Люстра VODA </a>
+        <p class="product__description">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
+        <div class="product__price-box">
+          <span class="product__price">45 000 руб.</span>
+          <span class="product__price product__price--sale">67 000 руб.</span>
+        </div>
+      </div>
+
+      <div class="product">
+        <img class="product__img" src="image/ronald.jpg" alt="Диван RONALD">
+        <a class="product__name" href="product.html"> Диван RONALD </a>
+        <p class="product__description">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
+        <div class="product__price-box">
+          <span class="product__price">156 000 руб.</span>
+          <span class="product__price product__price--sale">198 000 руб.</span>
+        </div>
+      </div>
+
+      <div class="product">
+        <img class="product__img" src="image/VENT.png" alt=" Комод VENT">
+        <a class="product__name" href="product.html"> Комод VENT </a>
+        <p class="product__description">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+        <div class="product__price-box">
+          <span class="product__price">34 000 руб.</span>
+          <span class="product__price product__price--sale">45 000 руб.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="catalog">
+    <div class="catalog__container center">
+      <h2 class="catalog__heading">Каталог товаров</h2>
+      <div class="catalog__content">
+        <div class="product">
+          <img class="product__img" src="image/tatran.png" alt="Кровать TATRAN">
+          <div class="product-icons">
+            <a href="cart.html" class="product__icon-cart"></a>
+            <a href="cart.html" class="product__icon-heart"></a>
+          </div>
+          <a class="product__name" href="product.html">Кровать TATRAN</a>
+            <p class="product__description">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
+            <span class="product__price">120 000 руб.</span>
+        </div>
+        <div class="product">
+          <img class="product__img" src="image/vilora.jpg" alt="Кресло VILORA">
+          <a class="product__name" href="product.html">Кресло VILORA</a>
+            <p class="product__description">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань</p>
+            <span class="product__price">21 000 руб.</span>
+        </div>
+        <div class="product">
+          <img class="product__img" src="image/menu.png" alt="Стол MENU">
+          <a class="product__name" href="product.html">Стол MENU</a>
+            <p class="product__description">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
+            <span class="product__price">34 000 руб.</span>
+        </div>
+        <div class="product">
+          <img class="product__img" src="image/askesta.png" alt="Кресло ASKESTA">
+          <a class="product__name" href="product.html">Кресло ASKESTA</a>
+            <p class="product__description">Высокоэластичный пенополиуретан в «начинке» кресла надежен и долговечен</p>
+            <span class="product__price">68 000 руб.</span>
+        </div>
+        <div class="product">
+          <img class="product__img" src="image/norman.png" alt="Стол NORMAN">
+          <a class="product__name" href="product.html">Стол NORMAN</a>
+            <p class="product__description">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки</p>
+            <span class="product__price">40 000 руб.</span>
+        </div>
+        <div class="product">
+          <img class="product__img" src="image/nastan.png" alt="Диван NASTAN">
+          <a class="product__name" href="product.html">Диван NASTAN</a>
+            <p class="product__description">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
+            <span class="product__price">80 000 руб.</span>
+        </div>
+      </div>
+      <a href="catalog.html" class="link-box">Перейти в каталог</a>
+    </div>
+  </div>
+  
+  <footer class="footer center">
+    <div class="footer__container">
+      <a class="footer__logo" href="index.html"><img src="image/Интерьер..png" alt="Интерьер."></a>
+      <section class="footer__info">
+      <div class="footer__menu">
+              <h3 class="footer__menu-title">Меню</h3>
+              <nav>
+                <ul class="footer__menu-list">
+                  <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Главная</a></li>
+                  <li class="footer__menu-item"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+                  <li class="footer__menu-item"><a class="footer__menu-link" href="cart.html">Корзина</a></li>
+                </ul>
+              </nav>
+      </div>
+        <div class="footer__contacts">
+              <h3 class="footer__contacts-title">Контакты</h3>
+                <ul class="footer__contacts-list">
+                  <li class="footer__contacts-item"><a class="footer__contacts-link" href="#">+7 908 800 80 80</a></li>
+                  <li class="footer__contacts-item"><a class="footer__contacts-link" href="#"> help@interier.com</a></li>
+                </ul>
+            <div class="footer__social">
+              <a class="footer__social-link" href="#"><img class="footer__social-icons" src="vk.svg" alt="vk"></a>
+              <a class="footer__social-link" href="#"><img class="footer__social-icons" src="telegram.svg" alt="tg"></a>
+              <a class="footer__social-link" href="#"><img class="footer__social-icons" src="dzen.svg" alt="dzen"></a>
+            </div>
+        </div></section>
+          <div class="footer__subscribe">
+            <p class="footer__subscribe-text">  Получать наши новости и обновления </p>
+            <input placeholder="Ваш e-mail" class="footer__subscribe-email" type="email" >
+            <button class="footer__subscribe-button">Подписаться</button>
+          </div>
+    </div>
+  </footer>
+  </body>
+  </html>
+  
