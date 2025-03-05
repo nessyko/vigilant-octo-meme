@@ -483,8 +483,11 @@ padding-bottom: 64px;
 }
 
 .catalog-filter{
-  display: flex;
-  gap: 10px;
+  &-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 39px;
+    }
     &-button{
       position: relative;
       display: flex;

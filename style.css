@@ -486,9 +486,10 @@ li {
   color: #000000;
 }
 
-.catalog-filter {
+.catalog-filter-box {
   display: flex;
   gap: 10px;
+  margin-bottom: 39px;
 }
 .catalog-filter-button {
   position: relative;
@@ -1157,7 +1158,7 @@ li {
     font-size: 48px;
     line-height: 58.51px;
   }
-  .catalog-filter {
+  .catalog-filter-box {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
