@@ -1,0 +1,196 @@
+.top-cart{
+  height: 400px;
+  background-image: url(image/Top-cart.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    &__title  
+    {font-weight: $font-weight-small;
+    font-size: 64px;
+    line-height: 70px;
+    margin-top: 127px;
+    color: $color-text;
+    }
+}
+
+.cart{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 64px;
+  margin-bottom: 64px;
+  column-gap: $gap;
+    &__content{
+    grid-column: span 8;
+
+    }
+    &__name-box{
+    display: flex;
+    justify-content: space-between;
+    font-weight: $font-weight-base;
+    font-size: $font-size-medium;
+    padding-bottom: 14px;
+    }
+    &__item{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    border-top: 0.5px solid $color-light-gray;
+    }
+    &__left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+    &__img{
+    width: 173px;
+    height: 173px;
+    }
+    &__info{
+    width: 276px;
+    padding-left: 31px;
+    }
+    &__name{
+    font-weight: $font-weight-base;
+    font-size: $font-size-large;
+    padding-bottom: 14px;
+    }
+    &__description{
+    font-weight: $font-weight-base;
+    font-size: 14px;
+    color: $color-gray;
+    padding-bottom: 16px;
+    }
+    &__price{
+    font-weight: $font-weight-small;
+    font-size: $font-size-medium;
+    }
+    &__link-box{
+    margin-top: 14px;
+    display: flex;
+    gap: 30px;
+    }
+    &__number::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+    &__number{
+    background-color: $color-background;
+    border-radius: 6px;
+    border: none;
+    font-family: Montserrat;
+    font-weight: $font-weight-small;
+    font-size: 14px;
+    text-align: center;
+    width: 71px;
+    height: 51px;
+    background-image: url(image/Frame\ 98.svg) ;
+    background-repeat: no-repeat;
+    background-position: 41px;
+
+    }
+    &__button-box{
+    display: flex;
+    gap: 7px; 
+    padding-bottom: 60px;
+    }
+    &__link{
+    font-weight: $font-weight-base;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: $color-text-dark;
+    } 
+    &__button{
+      font-family: Montserrat;
+      display: inline-block;
+      color: $color-text-dark; 
+      width: 200px;
+      height: 37px;
+      border-radius: 50px;
+      border-width: 1px;
+      border: 1px solid $color-text-dark;
+      font-weight: $font-weight-base;
+      font-size: 14px;
+      text-align: center;
+      background-color: transparent;
+      align-content: center;
+    &:hover{
+      background: #000000;
+      color: #FFFFFF;
+    }
+    }
+
+    &__form{
+    background-color: $color-background;
+    border-radius: 20px;
+    height: 556px;
+    grid-column: span 4;
+    width: 379px;
+
+      &-title{
+      font-weight: 700;
+      font-size: $font-size-large;
+      text-align: center;
+      padding-top: 42px;
+      padding-bottom: 35px;
+      }
+      &-order{
+        display: flex;
+      gap: 44px;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: ($font-size-large*2)+$font-size-medium;
+      }
+        &-input{
+      width: 288px;
+      font-weight: $font-weight-base;
+      font-size: 14px;
+      border: none;
+      padding-bottom: 3px;
+      border-bottom: 0.5px solid $color-light-gray;
+      background-color: transparent;
+        &::placeholder{
+        color: $color-text-dark;
+        font-family: Montserrat;
+        font-weight: $font-weight-base;
+        font-size: 14px;
+        }
+        &:focus {
+          outline: none;
+        }
+        }
+      &-result{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+      } 
+      &-total{  
+      font-weight: $font-weight-base;
+      font-size: $font-size-large;
+      text-align: center;
+      }
+      &-price{
+      font-weight: $font-weight-small;
+      font-size: $font-size-large;
+      text-align: center;
+      
+      }
+      &-button{
+      width: 290px;
+      height: 41px;
+      font-weight: $font-weight-base;
+      font-size: $font-size-medium;
+      border: 1px solid $color-text-dark;
+      border-radius: 20px;
+      background-color: transparent;
+      &:hover{
+        background: #000000;
+        color: #FFFFFF;
+      }
+      }
+    } 
+}
